@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+container{
+    max-width: 100%;
+    
+}
+.topbar{
+    background-color: #1b031b;
+    width: 100%;
+    border-bottom: 3px solid red;
+   height: 35px
+}
+.banner{
+    background-image: url(https://www.keralartc.com/img/main-bg.jpg);
+    width: 100%;
+   height:300px;
+    background-position: center;
+    background-size: cover;
+}
+/* .bdMain{
+    background-image: url(https://www.keralartc.com/img/main-bg.jpg);
+    width: 100%;
+    height: auto;
+} */
+.managercard{
+    width: 100%;
+  /*  height: 12em;*/
+    background-color: white; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.managercard p span{
+    font-size: medium;
+}
+.body{
+    background-color: rgb(243, 239, 234);  
+}
+.body h6{
+    color: red;
+}
+.logistics img{
+    width: 100%;
+    height: 12em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bodyList{
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.colum2{
+       margin-top: 1em;
+    padding: 35px;
+  /*  margin-top: 2em; */
+    
+}
+.list1{
+    gap: 2em;
+}
+/*.colum2 {
+
+
+}*/
+.colum2:hover {
+background-color: red !important;
+
+}
+.service{
+    text-decoration: none;
+    color: #000;
+}
+.service:hover{
+    text-decoration: block;
+    color: red;
+}
+.colum2 i{
+    font-size: 46px;
+    position: relative;
+   /* top: 35px;*/
+    color: red;
+}
+.colum2 i:hover{
+  color: #fff;
+;
+}
+.fooert-sec{
+    width: 100%;
+   /* height: 500px;*/
+    background-color: #1b031b;
+}
+.ftr a{
+color: red;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .topbar{
+        display:none;
+    }
+ .service {
+    text-decoration: none;
+    color: #000;
+    font-size: 10px;
+    }
+
+
+.colum2 i {
+    font-size: 25px;
+}
+
+}
